@@ -52,7 +52,6 @@ La compañía **“Viajes Seguros S.A.”** busca ofrecer una solución robusta 
 🔹 **Backend:** Spring Boot (Java)  
 🔹 **Base de Datos:** MySQL (con Docker Compose)  
 🔹 **Autenticación:** Spring Security + JWT  
-🔹 **Frontend:** React.js (PWA)  
 🔹 **ORM:** Spring Data JPA  
 🔹 **Pruebas:** JUnit 5, Mockito  
 
