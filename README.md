@@ -77,4 +77,4 @@ Crear el archivo .env y definir las credenciales de la base de datos:
 ```bash
     docker-compose up -d
 ### 🔹 2️⃣  **Ejecutar la aplicación Spring Boot**
-La API estará disponible en http://localhost:8080.
+La API estará disponible en http://localhost:9090.
