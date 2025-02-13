@@ -1,25 +1,22 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Archivos de entorno (Variables de entorno - Evita subir credenciales)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Archivos de configuración del IDE
 
-### IntelliJ IDEA ###
-.idea
+## IntelliJ IDEA ##
+.idea/
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+## VS Code ##
+.vscode/
+
+## NetBeans ##
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -29,5 +26,75 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+## Spring Tool Suite (STS) ##
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Logs y archivos generados por la aplicación
+logs/
+*.log
+log/
+*.pid
+*.seed
+*.state
+
+# Archivos de cobertura de código
+jacoco.exec
+*.exec
+*.ec
+
+# Dependencias descargadas
+**/node_modules/
+**/vendor/
+
+# Directorios de caché del sistema
+.DS_Store
+Thumbs.db
+.npm/
+.yarn/
+.pnpm/
+.cache/
+.tmp/
+.idea/
 .vscode/
+.history/
+
+# Archivos de compilación y empaquetado
+*.class
+*.war
+*.jar
+*.ear
+
+# Archivos temporales del sistema
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Archivo de lock de dependencia (opcional si lo gestionas en equipo)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Configuración específica del repositorio (Git)
+.gitignore
+.gitattributes
